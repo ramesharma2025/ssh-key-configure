@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us | Contact</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      padding: 40px;
+      max-width: 1100px;
+      margin: auto;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .about, .contact {
+      flex: 1;
+    }
+
+    .about h2, .contact h2 {
+      margin-bottom: 15px;
+      color: #2c3e50;
+    }
+
+    .about p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      line-height: 1.7;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    button {
+      padding: 12px;
+      background: #3498db;
+      color: white;
+      border: none;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #2980b9;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Our Website</h1>
+  </header>
+
+  <div class="container">
+    <div class="about">
+      <h2>About Us</h2>
+      <p>We are a passionate team dedicated to building impactful solutions for businesses and individuals. With a blend of innovation, creativity, and commitment, we strive to deliver the best digital experiences.</p>
+      <p>From websites to complex systems, our mission is to help clients grow and thrive in the digital world. We believe in clean design, user-first thinking, and long-term success.</p>
+    </div>
+
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Your Company. All rights reserved.
+  </footer>
+
+</body>
+</html>
